@@ -1,0 +1,18 @@
+language: ruby
+rvm:
+- 2.2.4
+node_js:
+- 5.3
+install:
+- "./bin/setup"
+script:
+- bundle exec jekyll build --trace
+- bundle exec htmlproof ./_site --only-4xx
+after_success:
+- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "source" && "./bin/automated"
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - USERNAME=martinisoft
+  - EMAIL=akalin@martinisoftware.com
+  - secure: dPIUrrlU1ASzCBGW0WcwnMlNkjtRhqb5lt39VlqL5LzWlHCe+4zOUuAFzG1yDHB9Dpr22cWj142+1abHt+lYJXAZidfLtUz/H7Kmf1BOM8Id23/zbhEDwg8b3tSFotdtVk2X3U1nn2kyzM9IV/zBtoC7kZ2Rv3g6+6bb898c5aA=

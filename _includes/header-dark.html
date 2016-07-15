@@ -1,0 +1,23 @@
+{% include head.html %}
+
+<div id="bump">
+  <body class="">
+    <header class="site-header darken">
+      <div class="wrap">
+        <hgroup>
+          <h1><a href="/">Martini Software</a></h1>
+        </hgroup>
+        <nav role="navigation">
+          <ul>
+            <li>
+              <a href="/" title="Martini Software">Home</a>
+            </li>
+
+            {% for link in site.links %}
+                <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+            {% endfor %}
+
+          </ul>
+        </nav>
+      </div>
+    </header>

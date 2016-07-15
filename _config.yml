@@ -1,0 +1,45 @@
+name: Martini Software
+title: Martini Software
+markdown: redcarpet
+exclude:
+  - README.markdown
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - Guardfile
+  - .ruby-version
+  - .ruby-gemset
+  - .gitignore
+  - .travis.yml
+  - bin/*
+gems:
+  - jekyll-assets
+  - jekyll-feed
+timezone: America/Chicago
+
+feed:
+  path: atom.xml
+
+author:
+  twitter: martinisoft
+
+assets:
+  css_compressor: sass
+  js_compressor: uglifier
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
+
+links:
+  - title: About
+    url: /about
+  - title: Github
+    url: https://github.com/martinisoft
+    external: true
+  - title: Twitter
+    url: https://twitter.com/martinisoft
+    external: true
+  - title: Dribbble
+    url: http://dribbble.com/martinisoft
+    external: true
