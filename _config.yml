@@ -15,7 +15,7 @@ exclude:
 gems:
   - jekyll-assets
   - jekyll-feed
-timezone: America/Chicago
+timezone: Asia/Kolkata
 
 feed:
   path: atom.xml
