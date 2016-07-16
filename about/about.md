@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /about/
+permalink: /about/about.md
 title: About Me
 ---
 

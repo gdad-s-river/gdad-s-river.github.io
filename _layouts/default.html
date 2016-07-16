@@ -1,59 +1,29 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+---
+# This is the default template. It covers the entire HTML page and includes the header.html and footer.html.
+---
+
+<!doctype html>
+
+<html lang="en">
+
   <head>
-    <title>{{ page.title }}</title>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
-    <link rel="stylesheet" type="text/css" media="screen, projection" href="/css/screen.css" />
-    <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
-    <script src="js/site.js" type="text/javascript"></script>
-    <meta name="verify-v1" content="GDmormezoCHPVpgJ+uxJ6UPwMPLy895EC3yRn/0Y3DI=" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{site.url}}/assets/css/style.css">
+    <script src="{{site.url}}/assets/js/scripts.js"></script>
+    
+    <title>{% if page.title %}{{ page.title }} | {{site.name}}{% else %}{{ site.name }}{% endif %}</title>
   </head>
-<body>
-  {% include site_nav.html %}
 
-  <hr />
+<body {% if %page.home %}class="home"{% endif %}>
 
-  <div id="wrap" class="group">
-    <div class="main">
-      <div id="entrylist" class="green group">
-        <h2>Blog Posts</h2>
-        <ul>
-          {% for post in site.posts %}
-            <li><span>{{ post.date | date_to_string }}</span> / <a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% include contact.html %}
-    </div> <!-- /.main -->
+{% include header.html %}
 
-    <hr />
+<main>
+  {{content}}
+</main>
 
-    <div class="secondary">
-      <div id="github" class="yellow group">
-        <h2>Github</h2>
-        <div id="repos"></div>
-      </div>
-    </div> <!-- /.secondary -->
+{% include footer.html %}
 
-    <hr />
-
-    {% include footer.html %}
-  </div> <!-- /wrap -->
-  <hr />
-  <a href="https://github.com/martinisoft"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
-  <script type="text/javascript">
-    var clicky_site_ids = clicky_site_ids || [];
-    clicky_site_ids.push(66418158);
-    (function() {
-      var s = document.createElement('script');
-      s.type = 'text/javascript';
-      s.async = true;
-      s.src = '//static.getclicky.com/js';
-      ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
-    })();
-  </script>
-  <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66418158ns.gif" /></p></noscript>
 </body>
+
 </html>

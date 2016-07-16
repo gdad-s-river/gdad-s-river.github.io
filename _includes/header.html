@@ -1,23 +1,11 @@
-{% include head.html %}
+<header>
 
-<div id="bump">
-  <body class="">
-    <header class="site-header">
-      <div class="wrap">
-        <hgroup>
-          <h1><a href="/">gdad-s-river's blog</a></h1>
-        </hgroup>
-        <nav role="navigation">
-          <ul>
-            <li>
-              <a href="/" title="gdad-s-river's blog">Home</a>
-            </li>
+  <h1 class="logo">
+    <a href="{{site.url}}"><span>{{site.name}}</span></a>
+  </h1>
 
-            {% for link in site.links %}
-                <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-            {% endfor %}
+  <div class="description">{{site.description}}</div>
 
-          </ul>
-        </nav>
-      </div>
-    </header>
+  {% include navigation.html %}
+
+</header>

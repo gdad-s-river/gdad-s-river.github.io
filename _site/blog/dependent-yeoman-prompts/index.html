@@ -1,0 +1,180 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/style.css">
+    <script src="http://localhost:4000/assets/js/scripts.js"></script>
+    
+    <title>Dependent Yeoman Prompts | My Blog</title>
+  </head>
+
+<body >
+
+<header>
+
+  <h1 class="logo">
+    <a href="http://localhost:4000"><span>My Blog</span></a>
+  </h1>
+
+  <div class="description">This is my blog where I post stuff</div>
+
+  <nav>
+
+  <ul>
+    <li><a href="http://localhost:4000">Home</a></li>
+    <li><a href="http://localhost:4000/about.html">About Me</a></li>
+    <li><a href="http://twitter.com/mytwitteraccount">Follow me on Twitter</a></li>
+  </ul>
+
+</nav>
+
+</header>
+
+<main>
+  <article class="single">
+
+  <header>
+    <h2>Dependent Yeoman Prompts</h2>
+
+      
+
+      <div class="meta">by Me on May 21, 2016</div>
+
+      
+
+  </header>
+
+  <div class="content">
+    <p>In my current project (at the point of writing this blogpost), there was a requirement that I struggled with for 3 days (not all of the time of course, only the time I spent in the office and home trying to solve it).</p>
+
+<p><strong>THE REQUIREMENT</strong>: was to ask the user for a URL in the first yeoman input prompt (yeoman uses <a href="https://github.com/SBoudrias/Inquirer.js/">Inquirer.js</a> internally), then make an http get request which returned a JSON, extract an array from a property in it, and then pass it to next checkbox prompt which takes an array of strings in its <em>choices</em> property to reflect as command line checkboxes for the user to choose from.</p>
+
+<p>If you know about yeoman, you know that there’s something called <a href="http://yeoman.io/authoring/running-context.html"><em>running context</em></a>, which is basically yeoman saying : “<em>I’m going to run these 10 methods in sequence, no matter what!</em> “.</p>
+
+<p>So I guess, no betting there, the problem I faced was with this run context:</p>
+
+<p><strong>THE PROBLEM</strong>: Because of the automatic running context, if I used any of the methods like <em>filter, validate</em> of the prompts object(can’t use <em>when</em> or <em>choices</em> because they don’t take the user input as the parameter, rather they take in the previous prompts’ answers hash) passed to the <code class="highlighter-rouge">this.prompt</code> yeoman method, as an array of many such prompts, to make the http request; the next prompt would be fired before the response came from http get request. This pretty much screwed with my requirement, since <strong>I wanted the response from the http request to feed the choices array in the next checkbox prompt!</strong></p>
+
+<p>Thankfully this great guy named <a href="https://github.com/binduwavell">Bindu Wavell</a> gave me a possible solution instantly. He said and I’m quoting from the gitter chat :</p>
+
+<blockquote>
+  <p>“@<strong>gdad-s-river</strong> a bunch of the prompt options can be functions. These can return a promise. Depending on what you want to do with the HTTP request, you can place it in a function on: when, default, choices, validate, filter…</p>
+</blockquote>
+
+<blockquote>
+  <p>Say you want to use the answer from one prompt to fetch a choice post for the second prompt. You’d place your HTTP call in the choices function of the second prompt entry.”</p>
+</blockquote>
+
+<p>I was overwhelmed by this <a href="http://yeoman.io/authoring/user-interactions.html">poorly documented page</a> (for a beginner that is, please don’t judge me). Poorly documented in the sense that a beginner wouldn’t know how to not use <code class="highlighter-rouge">this.async()</code> and use promises instead (which I struggled with). I first tried to do something with snippet given in the documentation, which showed that the <code class="highlighter-rouge">this.prompt</code> function returns a promise.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">generators</span><span class="p">.</span><span class="nx">Base</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
+  <span class="na">prompting</span><span class="p">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">prompt</span><span class="p">([{</span>
+      <span class="na">type</span>    <span class="p">:</span> <span class="s1">'input'</span><span class="p">,</span>
+      <span class="na">name</span>    <span class="p">:</span> <span class="s1">'name'</span><span class="p">,</span>
+      <span class="na">message</span> <span class="p">:</span> <span class="s1">'Your project name'</span><span class="p">,</span>
+      <span class="na">default</span> <span class="p">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">appname</span> <span class="c1">// Default to current folder name</span>
+    <span class="p">},</span> <span class="p">{</span>
+      <span class="na">type</span>    <span class="p">:</span> <span class="s1">'confirm'</span><span class="p">,</span>
+      <span class="na">name</span>    <span class="p">:</span> <span class="s1">'cool'</span><span class="p">,</span>
+      <span class="na">message</span> <span class="p">:</span> <span class="s1">'Would you like to enable the Cool feature?'</span>
+    <span class="p">}]).</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">answers</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'app name'</span><span class="p">,</span> <span class="nx">answers</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'cool feature'</span><span class="p">,</span> <span class="nx">answers</span><span class="p">.</span><span class="nx">cool</span><span class="p">);</span>
+    <span class="p">}.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">));</span>
+  <span class="p">}</span>
+<span class="p">})</span></code></pre></figure>
+
+<p>I thought this was the promise (that <code class="highlighter-rouge">this.prompt</code> method/function returns) that Bindu was suggesting me to do something with (which was by far one of the biggest unreasonable assumptions I’ve ever made). I made this assumptions because</p>
+
+<ol>
+  <li>I didn’t know that the prompts object, that we pass to <code class="highlighter-rouge">this.prompt</code> function, had some methods options like <strong>filter</strong>, <strong>when</strong>, <strong>validate</strong>, etc in it as well.</li>
+  <li>I didn’t know what promises could do that callbacks couldn’t.</li>
+</ol>
+
+<p>I was silly enough to ask the community if there was a way to make an http call synchronously in node (true story, how silly is that!).</p>
+
+<p>I thought I was doing something wrong in the http get request syntax in node, but I wasn’t. The problem was that I wasn’t being able to return the choices array extracted from the JSON response, to the choices method of the checkbox prompt from inside the http get callback function (I don’t that’s even possible).</p>
+
+<p><strong>Promises to the rescue</strong>: That’s where the promises came to the rescue.</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">generators</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'yeoman-generator'</span><span class="p">),</span>
+    <span class="nx">http</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'http'</span><span class="p">);</span>
+
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">generators</span><span class="p">.</span><span class="nx">Base</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
+  <span class="nx">constructor</span><span class="p">(){</span>
+    <span class="nx">generators</span><span class="p">.</span><span class="nx">Base</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="k">this</span><span class="p">,</span> <span class="nx">arguments</span><span class="p">);</span>
+  <span class="p">},</span>
+
+  <span class="nx">prompting</span><span class="p">(){</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">prompt</span><span class="p">([{</span>
+      <span class="na">type</span><span class="p">:</span> <span class="s1">'input'</span><span class="p">,</span>
+      <span class="na">name</span><span class="p">:</span> <span class="s1">'url'</span><span class="p">,</span>
+      <span class="na">message</span><span class="p">:</span> <span class="s1">'enter url'</span><span class="p">,</span>
+      <span class="na">default</span><span class="p">:</span> <span class="s2">"http://api.myjson.com/bins/4b83a"</span>
+    <span class="p">},</span> <span class="p">{</span>
+      <span class="na">type</span><span class="p">:</span> <span class="s1">'checkbox'</span><span class="p">,</span>
+      <span class="na">name</span><span class="p">:</span> <span class="s1">'components'</span><span class="p">,</span>
+      <span class="na">message</span><span class="p">:</span> <span class="s1">'select components'</span><span class="p">,</span>
+      <span class="na">choices</span><span class="p">:</span> <span class="p">(</span><span class="nx">answers</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="kd">let</span> <span class="nx">url</span> <span class="o">=</span> <span class="nx">answers</span><span class="p">.</span><span class="nx">url</span><span class="p">;</span>
+
+        <span class="kd">let</span> <span class="nx">httpGet</span> <span class="o">=</span> <span class="p">(</span><span class="nx">url</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+          <span class="k">return</span> <span class="k">new</span> <span class="nx">Promise</span><span class="p">((</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+            <span class="nx">http</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="nx">url</span><span class="p">,</span> <span class="p">(</span><span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+              <span class="nx">res</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">'data'</span><span class="p">,</span> <span class="p">(</span><span class="nx">chunk</span><span class="p">)</span> <span class="o">=</span> <span class="o">&gt;</span><span class="p">{</span>
+                <span class="nx">data</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">chunk</span><span class="p">);</span>
+                <span class="nx">resolve</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
+              <span class="p">})</span>
+            <span class="p">}).</span><span class="nx">on</span><span class="p">(</span><span class="s1">'error'</span><span class="p">,</span> <span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+              <span class="nx">reject</span><span class="p">(</span><span class="nb">Error</span><span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">message</span><span class="p">));</span>
+            <span class="p">});</span> <span class="c1">//end of http get</span>
+          <span class="p">});</span> <span class="c1">// end of promise</span>
+        <span class="p">};</span> <span class="c1">//end of httpGet function</span>
+
+        <span class="cm">/*
+          This being able to return the resolved value and then
+          being able to return the promise is something that callbacks
+          can never do.
+        */</span>
+        <span class="k">return</span> <span class="nx">httpGet</span><span class="p">(</span><span class="nx">url</span><span class="p">).</span><span class="nx">then</span><span class="p">((</span><span class="nx">data</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+          <span class="k">return</span> <span class="nx">data</span><span class="p">.</span><span class="nx">componentsList</span><span class="p">;</span>
+        <span class="p">}).</span><span class="k">catch</span><span class="p">((</span><span class="nx">err</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+          <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nb">Error</span><span class="p">(</span><span class="nx">err</span><span class="p">.</span><span class="nx">message</span><span class="p">));</span>
+        <span class="p">});</span> <span class="c1">// end of thenable of promise</span>
+      <span class="p">};</span> <span class="c1">// end of choices funcion</span>
+    <span class="p">}]);</span> <span class="c1">// end of this.prompts</span>
+  <span class="p">},</span> <span class="c1">// end of prompting function</span>
+<span class="p">});</span> <span class="c1">// end of extend</span>
+
+</code></pre>
+</div>
+<p>Because Promises are <em><strong>returnable</strong></em> and <em><strong>chainable</strong></em> (unlike callbacks)
+I won’t go into how promises work (because I want you to read about promises if you don’t haven’t yet read about them).</p>
+
+<p><strong>Promises Learning Resources</strong>(in sequence):
+1. <a href="http://www.html5rocks.com/en/tutorials/es6/promises/">Jake Archibald’s funny way of explaining things (here, promises)</a>
+2. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promises MDN Documentation</a></p>
+
+<p>If you have any questions regarding promises or this blog post, please don’t comment (Because I don’t have comments support on my blog yet (as you can see)). Til I have figured that out, <a href="https://twitter.com/gdad_s_river">Tweet me</a>.</p>
+
+
+    
+
+    <a class="button share-button" href="http://twitter.com/share?text=Dependent Yeoman Prompts&amp;url=http://localhost:4000/blog/dependent-yeoman-prompts/&amp;via=mytwitteraccount" title="Share on Twitter" target="_blank">Share on Twitter</a>
+
+<a class="button share-button" href="http://www.facebook.com/sharer.php?u=http://localhost:4000/blog/dependent-yeoman-prompts/&amp;t=Dependent Yeoman Prompts" title="Share on Facebook" target="_blank">Share on Facebook</a>
+  </div>
+
+</article>
+</main>
+
+<footer>
+  <span class="copyright">&copy; 2016 My Blog</span>
+</footer>
+
+</body>
+
+</html>
