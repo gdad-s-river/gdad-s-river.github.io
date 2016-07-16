@@ -1,11 +1,7 @@
 ---
 layout: post
 permalink: /about/index.html
-title: About Martini Software
-description: This is the blog and showcase for Aaron Kalin, a Software Developer and System Administrator based in Chicago, IL
-tags: [about, Martini Software, Aaron Kalin]
+title: About Me
 ---
 
-## Coming Soon
-
-Coming Soon
+I'm <strong>Arihant</strong> I live in <del>Bengaluru</del> present, making efforts to build something that people use and get benefitted from. I <a href="https://timetalesinfinity.wordpress.com" target="_blank">write</a> and read crazy (and crazily). I'm a basketball fanatic and a meditator. I love meeting new people and learning from and listening to them. Currently Understanding React Ecosystem, Starting with Data Structures and Algorithms. I'm in love with Meteor.</p>
