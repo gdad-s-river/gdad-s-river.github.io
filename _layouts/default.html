@@ -1,29 +1,20 @@
----
-# This is the default template. It covers the entire HTML page and includes the header.html and footer.html.
----
+<!DOCTYPE html>
+<html>
 
-<!doctype html>
+  {% include head.html %}
 
-<html lang="en">
+  <body>
 
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="{{site.url}}/assets/css/style.css">
-    <script src="{{site.url}}/assets/js/scripts.js"></script>
-    
-    <title>{% if page.title %}{{ page.title }} | {{site.name}}{% else %}{{ site.name }}{% endif %}</title>
-  </head>
+    {% include header.html %}
 
-<body {% if %page.home %}class="home"{% endif %}>
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
 
-{% include header.html %}
+    {% include footer.html %}
 
-<main>
-  {{content}}
-</main>
-
-{% include footer.html %}
-
-</body>
+  </body>
 
 </html>
