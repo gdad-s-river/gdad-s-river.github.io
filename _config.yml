@@ -8,7 +8,7 @@
 # Site settings
 title: gdad-s-river's blog
 email: arihantverma1994@gmail.com
-description: gdad-s-river's blog on the web
+description: gdad-s-river's tech ramblings on the web
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://gdad-s-river.github.io" # the base hostname & protocol for your site
 twitter_username: gdad_s_river
