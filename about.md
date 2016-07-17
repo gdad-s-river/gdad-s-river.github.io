@@ -4,12 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I'm <strong>Arihant</strong> I live in <del>Bengaluru</del> present, making efforts to build something that people use and get benefitted from. I <a href="https://timetalesinfinity.wordpress.com" target="_blank">write</a> and read crazy (and crazily). I'm a basketball fanatic and a meditator. I love meeting new people and learning from and listening to them. Currently Understanding React Ecosystem, Starting with Data Structures and Algorithms. I'm in love with Meteor.</p>
