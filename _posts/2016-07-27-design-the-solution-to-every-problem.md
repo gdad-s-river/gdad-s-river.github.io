@@ -5,7 +5,7 @@ layout: post
 permalink: '/design-the-solution-to-every-problem'
 ---
 
-I watched Aarzon Swartz's documentary and somewhere in between I watched his T shirt which said **_Design is the Solution to Every Problem_**, or *Design can solve everything* or likewise. All the data structures and maps worth of thoughts came to my mind which I'm unable to remember now. Here I try to remember and write what I, remember.
+I watched Aaron Swartz's documentary and somewhere in between I watched his T shirt which said **_Design is the Solution to Every Problem_**, or *Design can solve everything* or likewise. All the data structures and maps worth of thoughts came to my mind which I'm unable to remember now. Here I try to remember and write what I, remember.
 
 **Mind**: A properly designed mind, can solve everything. What's the metric of properly designed mind? You *keep* yourself happy no matter what. That is possible when you are the controller of your emotions, rather than the vice versa. No matter how strong a problem is, is always taken care of if taken as a challenge. Aaron taught me that. Like in this [epic stand up comedy](https://www.youtube.com/watch?v=KQHsVPD5Ans) Jim Carrey rightly said in between, that there are moments when a thought comes ( we don't know from where ), we choose or not to choose to act upon it. A superbly designed mind,
 
@@ -23,3 +23,5 @@ I watched Aarzon Swartz's documentary and somewhere in between I watched his T s
   * Having compassion, is saying *it's alright, let's start again, let me help you*, but not really saying it outloud. Showing it in expressions and actions, without making other people know anything about anything. A highly designed mind, looks for the short path for the most efficient problem solution. Having compassion is one of them.
 
 Design is not a curriculum, it's a way of life. It solves problem we don't even consciously think about, like what order of errand items would cater to the least distance traveled, how fast do I have to get ready in order to not be late (not lame, smart), do I wash my under wear today or tomorrow in order to not be late, how do I [write smartly](http://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century), how to code that shit in the most memory and code performant way, how to build that building... Anything that can fall after _How To (fill in the blank)_ could be a design problem. How to kiss best, how to not get caught while entering a class late, you get the point.
+
+Anytime there is a problem statement, it's a design problem. It's a design problem to judge the correct size when you are shopping online, it's a design problem to keep track of different conversations while chatting, to get up early, to solve the Bangalore traffic problem (Fazal, you can do it!), and the list is never ending. 
