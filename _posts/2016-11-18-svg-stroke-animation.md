@@ -47,7 +47,7 @@ Then I used [Vivus](https://github.com/maxwellito/vivus) to animate them in a ca
 
 ![Issues! Yay!]({{site.url}}/assets/images/bhavri-github-issues.png)
 
-![Unacceptable Manual Callback Chaining]({{site.url}}/assets/images/bhavri-github-callbacks/png)
+![Unacceptable Manual Callback Chaining]({{site.url}}/assets/images/bhavri-github-callbacks.png)
 
 Also there's a forced jag towards the poem, at the end,which is nothing but forced scrolldown push of the page, so that the requestAnimationFrame remains active,and the animation doesn't stop there, because of being out of the viewport; which I've to better, by sensing when there is a vertical scroll (when it actuall comes,that is), and the smoothly animating the scroll to the next line of svg animation continuation(in the issues as well). 
 
