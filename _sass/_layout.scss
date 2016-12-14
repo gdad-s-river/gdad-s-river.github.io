@@ -29,6 +29,10 @@
     line-height: 56px;
     margin-right: 9%;
 
+    @include media-query($on-palm) {
+        margin-right: 0;
+    }
+
     .menu-icon {
         display: none;
     }
@@ -101,6 +105,10 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+
+    @include media-query($on-palm) {
+        text-align: center;
+    }
 }
 
 .footer-heading {
@@ -169,18 +177,34 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit 0 0;
 }
 
 .page-heading {
     font-size: 20px;
+
+    @include media-query($on-palm) {
+        text-align: center;
+    }
 }
 
 .post-list {
     margin-left: 0;
+    list-style-type: none;
+
+    @include media-query($on-palm) {
+        text-align: center;
+    }
 
     > li {
         margin-bottom: 0;
+
+        @include media-query($on-palm) {
+            border-bottom: 1px solid rgb(202, 200, 200);
+            padding: 8px 0;
+        }
+
+
         h2 {
           display: inline-block;
           margin-bottom: 0;
@@ -196,6 +220,13 @@
     font-size: $small-font-size;
     color: $grey-color;
     padding-left: 2%;
+
+    @include media-query($on-palm) {
+        float: none !important;
+        display: block;
+        text-align: center;
+        margin-right: 0 !important;
+    }
 }
 
 .post-link {
@@ -247,5 +278,11 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+}
+
+@include media-query($on-palm) {
+    .rss-subscribe {
+        text-align: center;
     }
 }
