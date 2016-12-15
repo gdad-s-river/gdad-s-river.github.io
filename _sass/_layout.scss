@@ -201,7 +201,6 @@
         margin-bottom: 0;
 
         @include media-query($on-palm) {
-            border-bottom: 1px solid rgb(202, 200, 200);
             padding: 8px 0;
         }
 
