@@ -23,7 +23,8 @@ body {
     font-kerning: normal;
 }
 
-
+::-moz-selection { background: #79d9f9; }
+::selection { background: #79d9f9; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
