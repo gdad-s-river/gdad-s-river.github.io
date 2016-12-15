@@ -183,6 +183,7 @@
 
 .page-heading {
     font-size: 20px;
+    text-transform: uppercase;
 
     @include media-query($on-palm) {
         text-align: center;
