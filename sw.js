@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 const VERSION = "gdad-s-river-static-v1",
   staticCacheName = "gdad-s-river";
 
@@ -5,10 +9,18 @@ console.log("installing service worker");
 
 const filesToCache = [
   "/",
+  {% for page in site.html_pages %}
+    '{{ page.url }}',
+  {% endfor %}
   "/assets/images",
   "css/main.css",
   "/about/",
-  "/index.html"
+  "/index.html",
+  "/blog/",
+  "/feeds/search.json",
+  {% for post in site.posts %}
+    '{{ post.url }}',
+  {% endfor %}
 ];
 
 self.addEventListener("install", function(e){
