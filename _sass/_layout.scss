@@ -235,6 +235,11 @@
     font-size: 1.2rem;
     border-bottom: 2px solid #79d9f9;
 
+    -webkit-transition: background .5s ease-out;
+    -moz-transition: background .5s ease-out;
+    -o-transition: background .5s ease-out;
+    transition: background .5s ease-out;
+
     &:hover {
         background-color: #79d9f9;
     }
@@ -268,7 +273,7 @@
         padding: 5px 5px 0 5px;
 
         &:hover {
-            background-color: #79d9f9;
+            background-color: #b4e7f8;
         }
     }
 
