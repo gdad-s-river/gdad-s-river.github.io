@@ -24,6 +24,8 @@ const filesToCache = [
 ];
 
 self.addEventListener("install", function(e){
+  self.skipWaiting();
+
   e.waitUntil(
     caches.open(staticCacheName).then(function(cache){
       return cache.addAll(filesToCache);
