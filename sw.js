@@ -41,7 +41,7 @@ self.addEventListener("activate", function(e){
           return cacheName.startsWith("gdad-s-river-static-")
             && cacheName != staticCacheName;
         }).map(function(cacheName){
-          return cache.delete(cacheName);
+          return caches.delete(cacheName);
         })
       )
     })
