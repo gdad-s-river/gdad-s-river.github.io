@@ -38,7 +38,7 @@ self.addEventListener("activate", function(e){
     caches.keys().then(function(cacheNames){
       return Promise.all(
         cacheNames.filter(function(cacheName){
-          return cacheName.startsWith("gdad-s-river-")
+          return cacheName.startsWith("gdad-s-river-static-")
             && cacheName != staticCacheName;
         }).map(function(cacheName){
           return cache.delete(cacheName);
