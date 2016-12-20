@@ -1,6 +1,6 @@
 ---
 title: "Getting My Blog Offline First and Other Stuff"
-date: "2016-11-18"
+date: "2016-12-19"
 layout: post
 permalink: "/blog/offline-first-blog"
 ---
