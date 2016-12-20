@@ -8,7 +8,7 @@ permalink: "/blog/offline-first-blog"
 ### **TL;DR**
 
 - **Why offline first hype makes sense with other concepts like streams etc.**
-- **How I'm stuck in learning just frameworks and not the web platformk**
+- **How I'm stuck in learning just frameworks and not the web platform**
 - **How I'm baffled at my (and others') inability to get lost in web development and not explore more computer science ideas.**
 - **Some sneak peaks from during my campus training program**
 - **How I made my jekyll blog offline first (code snippets)**
@@ -141,4 +141,4 @@ In the fetch event I'm simply telling the service worker, how to respond to a pa
 
 Tada! Service worker made jekyll powered blog offline!
 
-You could see an app like experience demo in this [gif](http://giphy.com/gifs/first-offline-service-workers-l4JyWeu74yyEFJDUI)
+You could see an app like experience demo in this ![gif offline first blog](https://media.giphy.com/media/l4JyWeu74yyEFJDUI/source.gif)
