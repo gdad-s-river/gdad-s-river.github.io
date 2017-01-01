@@ -8,11 +8,11 @@ tag: "service-worker, offline-first, pwa"
 
 ### **TL;DR**
 
-- **Why offline first hype makes sense with other concepts like streams etc.**
-- **How I'm stuck in learning just frameworks and not the web platform**
-- **How I'm baffled at my (and others') inability to get lost in web development and not explore more computer science ideas.**
-- **Some sneak peaks from during my campus training program**
-- **How I made my jekyll blog offline first (code snippets)**
+1. **Why offline first hype makes sense with other concepts like streams etc.**
+2. **How I'm stuck in learning just frameworks and not the web platform**
+3. **How I'm baffled at my (and others') inability to get lost in web development and not explore more computer science ideas.**
+4. **Some sneak peaks from during my campus training program**
+5. **How I made my jekyll blog offline first (code snippets)**
 
 Now I know this is not new, service workers landed first in Chrome Canary in 2014, so was the most read Jake Archibald's [offline cookbook](https://jakearchibald.com/2014/offline-cookbook/). But only during the past year, have all the google developer advocates and other software engineers on chrome team publicised offline first experience, and app like launching capabilities of a website powered by service workers! They are investing so much time and money, so as to have enabled a Bangalore PWA summit for free (happened 6 - 7 months back). I got to meet Matt Gaunt, Jake Archibald, and others from the chrome developer relations team! It was like a dream come true, having watched so many of their videos on youtube.
 
