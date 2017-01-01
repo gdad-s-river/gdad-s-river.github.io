@@ -3,6 +3,7 @@ title: Private Methods and Properties in es2015 Classes
 date: "2016-08-25"
 layout: post
 permalink: '/privates-in-es2015-classes'
+tag: "es2015, classes, private-methods"
 ---
 
 Using function constructors to simulate classes in es5 lets us use private functions and properties at our will, by the virtue of closures / module pattern. It was astonishing to me that es2015 classes didn’t have that privilege ( although there are many other privileges like

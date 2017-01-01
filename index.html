@@ -13,6 +13,11 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <span class="chip-tag">
+          <span class="chip-tag-text">
+            {{ post.tag }}
+          </span>
+        </span>
 
       </li>
     {% endfor %}

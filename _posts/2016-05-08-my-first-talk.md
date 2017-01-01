@@ -5,6 +5,7 @@ layout: post
 path: "/blog/my-first-talk/"
 readNext: "/blog/dependent-yeoman-prompts"
 total_time: 7 minutes
+tag: "conference-talk"
 ---
 
 Recently Sapient's Annual XT Summit concluded with some star presenters and talks. I being only 4 months old in the company and straight out of college, was reluctant at first to give a proposal for the talk. But my manager Vidhya, immediately pumped me up to propose, as soon as I told her that I was thinking of giving a talk at the Summit. First I started preparing way before the timeline, reading [Meteor Guide](http://guide.meteor.com/) and forums and what not. Following are the take aways that I took away from the process of preparing as well as the [talk](https://drive.google.com/file/d/0Bxn8AKmUc9-MYi01SHpBZVQtU3c/view?usp=sharing) itself:

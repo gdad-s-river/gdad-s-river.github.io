@@ -3,6 +3,7 @@ title: "Towards a Suprise: SVG Stroke Animations"
 date: "2016-11-18"
 layout: post
 permalink: "/blog/surprise-svg-stroke-animations"
+tag: "svg, stroke-animations, Inkscape"
 ---
 
 TL;DR : 

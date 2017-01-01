@@ -216,6 +216,34 @@
           margin-right: 0;
           font-size: 1.3rem;
         }
+
+        .chip-tag {
+          position: relative;
+          top: -5px;
+          height: 25px;
+          line-height: 27px;
+          padding: 0 12px;
+          border: 0;
+          border-radius: 16px;
+          background-color: #dedede;
+          display: inline-block;
+          color: rgba(0,0,0,.87);
+          margin: 0 0 -5px 7px;
+          font-size: 0;
+          white-space: nowrap;
+
+          @include media-query($on-laptop) {
+            display: block;
+            text-align: center;
+            margin-bottom: 10px;
+          }
+
+          .chip-tag-text {
+            font-size: 13px;
+            vertical-align: middle;
+            display: inline-block;
+          }
+        }
     }
 }
 
@@ -233,19 +261,33 @@
 }
 
 .post-link {
-    display: block;
+    display: inline-block;
+    position: relative;
     font-size: 1.2rem;
-    border-bottom: 2px solid #79d9f9;
 
-    -webkit-transition: background .5s ease-out;
-    -moz-transition: background .5s ease-out;
-    -o-transition: background .5s ease-out;
-    transition: background .5s ease-out;
-
-    padding-top: 3px;
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      bottom: 0;
+      left: 0;
+      background-color: #79d9f9;
+      visibility: hidden; // http://tobiasahlin.com/blog/css-trick-animating-link-underlines/
+      -webkit-transform: scaleX(0); 
+      transform: scaleX(0);
+      -webkit-transition: all 0.4s ease-in-out 0s;
+      transition: all 0.4s ease-in-out 0s;
+      
+    }
 
     &:hover {
-        background-color: #79d9f9;
+
+      &:after {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+      }
     }
 }
 

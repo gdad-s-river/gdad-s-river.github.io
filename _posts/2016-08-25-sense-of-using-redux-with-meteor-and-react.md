@@ -3,6 +3,7 @@ title: Sense of Using Redux with Meteor and React
 date: "2016-08-25"
 layout: post
 permalink: '/redux-with-meteor-n-react'
+tag: "meteor, react, redux"
 ---
 
 The other day, when I gave a talk about Meteor + React in the javascript meetup in Sapient Bangalore, Neha asked what was the need of using redux with Meteor anyway. So I researched after the talk and found these series of [medium articles](https://medium.com/modern-user-interfaces/how-we-redux-part-1-introduction-18a24c3b7efe#.g2fof11i7) by the awesome [Abhi Ayer](https://twitter.com/AbhiAiyer). The series aren't complete, I think he forgot to or is too busy to write the last one. But the [code](https://github.com/abhiaiyer91/How-We-Redux-Todos)  makes everything understood.

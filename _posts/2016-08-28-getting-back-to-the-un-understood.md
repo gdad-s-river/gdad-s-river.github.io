@@ -3,6 +3,7 @@ title: Getting Back to the Un-Understood
 date: "2016-08-28"
 layout: post
 permalink: "/blog/getting-back-to-the-un-understood"
+tag: "ramblings, tech, learning"
 ---
 
 I started my career as a web developer in [Sapient Nitro](http://www.sapientnitro.com) a year back, as a Junior Interactive Developer, which is a fancy sugar coating on a Trainee, really. For the first 6 months I was tested through my patience, nights, self doubts, friends earning tripple / quadruple. On one particularly gloomy, night when only a yellow CFL was on in the room, I'd decided that I wouldn't be able to handle it. I'd packed my bags and was staring at an airline's cheapest flights to go back home. [I don't have sort of friends who can have my back, hell I don't even know how can I have my back](https://www.facebook.com/notes/swastika-jajoo/notes-on-not-being-special-enough/687472464744590). So there was sorta no support as well.

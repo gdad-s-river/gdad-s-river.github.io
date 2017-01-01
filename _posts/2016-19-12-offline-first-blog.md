@@ -3,6 +3,7 @@ title: "Getting My Blog Offline First and Other Stuff"
 date: "2016-12-19"
 layout: post
 permalink: "/blog/offline-first-blog"
+tag: "service-worker, offline-first, pwa"
 ---
 
 ### **TL;DR**

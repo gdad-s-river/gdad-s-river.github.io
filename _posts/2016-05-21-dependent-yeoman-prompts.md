@@ -6,6 +6,7 @@ path: "/blog/dependent-yeoman-prompts/"
 readPrevious: "/blog/my-first-talk/"
 total_time: Around 20 minutes
 highlight: true
+tag: "web, promises, yeoman"
 ---
 
 In my current project (at the point of writing this blogpost), there was a requirement that I struggled with for 3 days (not all of the time of course, only the time I spent in the office and home trying to solve it).

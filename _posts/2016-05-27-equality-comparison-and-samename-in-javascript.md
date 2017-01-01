@@ -4,6 +4,7 @@ date: "2016-05-27"
 layout: post
 path: "/blog/equality-comparison-and-samename-in-javascript/"
 readPrevious: "/blog/dependent-yeoman-prompts/"
+tag: "JS, language"
 ---
 
 This is the piece of code that [CodeChef](https://www.codechef.com/) shared on their [facebook page](https://www.facebook.com/CodeChef/) [here](https://www.facebook.com/CodeChef/photos/a.10150302285647799.346300.53227312798/10153675104012799/?type=3&theater). To write the code snippet down:
