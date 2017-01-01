@@ -16,3 +16,7 @@ github_username:  gdad-s-river
 
 # Build settings
 markdown: kramdown
+
+sass: 
+  sass_dir: _sass
+  style: compressed
