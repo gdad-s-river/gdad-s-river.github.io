@@ -72,6 +72,8 @@ Subin was my new Manager after Ashok. He's a wonderful team player, very vigilan
 
 Trinadh has been very helpful. No matter what, he'd ensure that I understood the task in hand properly before I started working on it. So everytime he'd explain me things, which'd involve a sequence of number of steps to follow, he'd pragmatically jot down all those subtask todos in order, and send it over office IM, before I'd even reach to my seat back. Very soft spoken, and a very practical and fun loving person. 
 
+Sagar, right from when we were porting components, was always cool and chilling. He has the habit of keeping everybody smiling and laughing.
+
 > If I've left someone please comment below, and I'll pick you up to include you from my memories, here!
 
 ## What Sapient Gave me:
