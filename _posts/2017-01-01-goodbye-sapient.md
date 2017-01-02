@@ -100,6 +100,8 @@ I'm very thankful I've understanding parents who never fiddled with my choices o
 
 If you've been a part of my life in Bangalore, I'd love to hear more than _All the best for your future_ and _good luck_ in the comments below, because you've meant more to me than you know, and you owe me a proper goodbye. I want you to cite incidents, if you can, of conversations, you remember, and if and when I was able to make a impact in any way, in you and your life.
 
+10th Jan is my last day in Sapient. 
+
 Cheers to a happy new year. May your ways be auspicious. 
 
 PS: I had this crazy idea, where I'd put a status on facebook asking if anybody would want to write a poem with me, like a co write thing. Three of them responded and following are the 3 poems, that I co wrote with three people. 
