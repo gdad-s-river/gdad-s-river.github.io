@@ -58,6 +58,8 @@ Pinky has been up with the most needed tasks and finished them in time. She's ve
 
 Abraham is the guy after Vidhya, who has silently given support to everybody. When I started reading DExA's code, I'd keep bugging him for the things I didn't understand (which was pretty much everything). Everything was new to me, singletons, classes, abstractions, nodejs, and what not. I'd get impatient and go straight to him to understand it. He'd patiently send me back sometimes and ask me to spend a little more time to understand it. Best advice I took. He's the reason I'm comfortable reading code patiently now. Thank you Abraham for being a wonderful mentor for over a year.
 
+Dhani bhai was like a big brother all along. His presence was an instant sad mood killer. His voice itself echoed _Yo Bro, what's up_ kinda vibe. We shared, we shared well. He understands things. 
+
 Prashant Baid, is a fascinating guy, more than anything else, he's curious and humble. I first saw him when Elan showcased the music box app during the tech friday, where he was accidentally addressed as Junior Associate, instead of Associate. I'd remember the night of the movie in office, wonderful wonderful night. I don't think the ones who were there talked about it much. But it was a really special night. He writes really interesting blogposts, and he should write more of them, more often. Oddly enough more than Shafeeq or Anusheel, it was him I got most comfortable with in a given time. We had had really interesting conversations, and I continue to look forward for more. 
 
 Namrata was the sweetest of all. With the old songs on the bike, and her awesome doodling talent, I became good friends with her. We went to see Jeffrey Archer together, went on a bike trip along with Abin Pal - thebongboy, Ashutosh, Abhijeet and Yash bhai. It was a good ride.
@@ -67,6 +69,10 @@ Elan and Prashant Bhaduria put in me a part of them, their vigour, to teach shar
 Yash was always outspoken, tinkering with things, wonderful person that could keep you up on Saturdays to execute an idea, only if you had a decent will to do so. I'll remember every React Redux and other conversations we had. Too interesting to forget just like that.
 
 NChaugTalks was always lovely, passionate about what she was responsible for an wanted to do, sometimes hard on herself, but in a goodway, the way I'm going to me hard on myself in terms of habit and routine. She's polygot in terms of technology, so are Yash, and PB. And she is the only person that I know that sometimes actively feel at stretch, limited by not exploring things other than just web dev.
+
+I met Abhijeet _chalte firte_. He kept teasing Rishabh, before you knew it, I hit him hard on his bum _chalte firte_, that's how I got to know him. We went on one bike trip, boy it was a good one. He shared some things on the way, I'm glad he shared them with me.
+
+I was so inspired by Suvarna that I stayed night tried to copy paste stuff and [make a good farewell online](https://suvi277.github.io/) (beware it's not responsive) card sorta thing, because I'd forgot to bring an actual one, which I was liable for in the team. Just one look of her back straighened up in the chair could make you sit upright on your chair and work.
 
 Subin was my new Manager after Ashok. He's a wonderful team player, very vigilant, professional, caring for his team mates, and always up for getting things done right. I'm very grateful for him, for being very appreciative of everything. I couldn't have had a better second project Manager, I'm sure. And he's a [wonderful photographer](https://subinpaul.com/).
 
