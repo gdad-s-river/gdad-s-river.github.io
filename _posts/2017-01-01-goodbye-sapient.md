@@ -64,27 +64,27 @@ Namrata was the sweetest of all. With the old songs on the bike, and her awesome
 
 Elan and Prashant Bhaduria put in me a part of them, their vigour, to teach share and be excited about and taking charge of things. Elan's daily doses of knowledge, no matter short lived, before he went off to London, were massive in the game of mentors. When I'm stuck in life in general, or in the code somewhere, Prashant's thought has been able to get me going a couple of times. 
 
-Yash was always outspoken, tinkering with things, wonderful person that could keep you up on Saturdays to execute an idea, only if you had a decent will to do so. I'll remember every React Redux and other conversations we had. Very interesting to forget just like that.
+Yash was always outspoken, tinkering with things, wonderful person that could keep you up on Saturdays to execute an idea, only if you had a decent will to do so. I'll remember every React Redux and other conversations we had. Too interesting to forget just like that.
 
 NChaugTalks was always lovely, passionate about what she was responsible for an wanted to do, sometimes hard on herself, but in a goodway, the way I'm going to me hard on myself in terms of habit and routine. She's polygot in terms of technology, so are Yash, and PB. And she is the only person that I know that sometimes actively feel at stretch, limited by not exploring things other than just web dev.
 
-Subin was my new Manager after Ashok. He's a wonderful team player, very vigilant, professional,caring for his team mates, and always up for getting things done right. I'm very grateful for him, for being very appreciative of everything. I couldn't have had a better second project Manager, I'm sure. And he's a [wonderful photographer](https://subinpaul.com/).
+Subin was my new Manager after Ashok. He's a wonderful team player, very vigilant, professional, caring for his team mates, and always up for getting things done right. I'm very grateful for him, for being very appreciative of everything. I couldn't have had a better second project Manager, I'm sure. And he's a [wonderful photographer](https://subinpaul.com/).
 
 Trinadh has been very helpful. No matter what, he'd ensure that I understood the task in hand properly before I started working on it. So everytime he'd explain me things, which'd involve a sequence of number of steps to follow, he'd pragmatically jot down all those subtask todos in order, and send it over office IM, before I'd even reach to my seat back. Very soft spoken, and a very practical and fun loving person. 
 
 Sagar, right from when we were porting components, was always cool and chilling. He has the habit of keeping everybody smiling and laughing.
 
-> If I've left someone please comment below, and I'll pick you up to include you from my memories, here!
+> If I've left someone please comment below, and I'll include you from my memories, here!
 
 ## What Sapient Gave me:
 
-1. The courage to do what I want. I was intimidated by friends, people who know more, are doing better, both knowledge and money wise. Yes I'm afraid, but not like that anymore. I know I've talents, I know I can nourish them, put to use, and I know I will. One year back I couldn't have been able to say that. Because it was beyond me that time, that I need to work, and not loiter around time. 
+1. The courage to do what I want. I was intimidated by friends, people who know more, are doing better, both knowledge and money wise. Yes I'm afraid, but not like that anymore. I know I've talents, I know I can nourish them, put to use, and I know I will. One year back I couldn't have said that. Because it was beyond me that time, that I need to work, and not loiter around time. 
 
 2. Friends cum colleagues, I'll remain friends with for a long time. 
 
 3. XT Summit and Javascript Meetup were the best things that happened to me.
 
-4. When I graduated, I wanted to become a full time writer. I boasted of this aspiration, but I'm not really a writer, not right now atleast, I just aspire to be published someday. That doesn't make me a writer. I write sure ofcourse. But that doesn't make me a writer. It asks for more, reading, talking to people, experiences, writing for cause(s), so many things. I'm going to do it. Along with this new sense of achievement of 2016 that I had never felt before. Sapient gave me something new to look forward to and hold onto. I couldn't have imagined that I'd be spending time programming things, primarly because I was afraid to plan things out. Basketball and writing sort of kept me away from planning and I kept procrastinating. I've learnt from so many people, so many of them I'm amazed. 
+4. When I graduated, I wanted to become a full time writer. I boasted of this aspiration, but I'm not really a writer, not right now atleast, I just aspire to be published someday. That doesn't make me a writer. I write sure ofcourse. But that doesn't make me a writer. It asks for more, reading, talking to people, experiences, writing for cause(s), so many things. I'm going to do it. Along with this new sense of achievement of 2016 that I had never felt before. Sapient gave me something new to look forward to and hold onto. I couldn't have imagined that I'd be spending time programming things, primarily because I was afraid to plan things out. Basketball and writing sort of kept me away from planning and I kept procrastinating. I've learnt from so many people, so many of them I'm amazed. 
 
 
 There are many circumstances that are making me quit this job. What would I do now? 
@@ -116,5 +116,5 @@ And another one which I'd written this way a long time back [A Shadow Thought](h
 
 This is a poem I wrote lately: [My Sadness Wants to Fuck Your Sadness](https://www.facebook.com/notes/arihant-verma/my-sadness-wants-to-fuck-your-sadness-non-theater-version/1539885486076402/?pnref=story)
 
-And last but not the least, who of all of us have done this : ![Commit Strip Comic]({{ site.url }}/assets/images/jira-commitstrip.jpg)
+And last but not the least, who of all of us have done this? : ![Commit Strip Comic]({{ site.url }}/assets/images/jira-commitstrip.jpg)
 
