@@ -112,5 +112,5 @@ And another one which I'd written this way a long time back [A Shadow Thought](h
 
 This is a poem I wrote lately: [My Sadness Wants to Fuck Your Sadness](https://www.facebook.com/notes/arihant-verma/my-sadness-wants-to-fuck-your-sadness-non-theater-version/1539885486076402/?pnref=story)
 
-And last but not the least, who of all of us have done this : ![Commit Strip Comic]({{ site.url }}/assets/images/jira_commitstrip.jpg)
+And last but not the least, who of all of us have done this : ![Commit Strip Comic]({{ site.url }}/assets/images/jira-commitstrip.jpg)
 
