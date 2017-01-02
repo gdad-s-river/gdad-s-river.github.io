@@ -88,4 +88,4 @@ There are many circumstances that is making me quit this job. What would I do no
 
 I'm very thankful I've understanding parents who never fiddled with my choices of whatever I wanted to in my career, which is still unclear.
 
-If you've been a part of my life in Bangalore, I'd love to hear more than _All the best for your future_ and _good luck_ in the comments below, because you've meant more to me than you know, and you owe me a proper goodbye.
+If you've been a part of my life in Bangalore, I'd love to hear more than _All the best for your future_ and _good luck_ in the comments below, because you've meant more to me than you know, and you owe me a proper goodbye. I want you to cite incidents, if you can, of which conversations, you remember, and if and when I was able to make a impact in any way, in you and your life.
