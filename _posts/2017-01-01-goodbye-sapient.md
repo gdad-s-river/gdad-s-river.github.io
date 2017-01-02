@@ -68,11 +68,11 @@ Elan and Prashant Bhaduria put in me a part of them, their vigour, to teach shar
 
 Yash was always outspoken, tinkering with things, wonderful person that could keep you up on Saturdays to execute an idea, only if you had a decent will to do so. I'll remember every React Redux and other conversations we had. Too interesting to forget just like that.
 
-NChaugTalks was always lovely, passionate about what she was responsible for an wanted to do, sometimes hard on herself, but in a goodway, the way I'm going to me hard on myself in terms of habit and routine. She's polygot in terms of technology, so are Yash, and PB. And she is the only person that I know that sometimes actively feel at stretch, limited by not exploring things other than just web dev.
+NChaugTalks was always lovely, passionate about what she was responsible for and wanted to do, sometimes hard on herself, but in a goodway, the way I'm going to me hard on myself in terms of habit and routine. She's polygot in terms of technology, so are Yash, and PB. And she is the only person that I know that sometimes actively feel at stretch, limited by not exploring things other than just web dev.
 
 I met Abhijeet _chalte firte_. He kept teasing Rishabh, before you knew it, I hit him hard on his bum _chalte firte_, that's how I got to know him. We went on one bike trip, boy it was a good one. He shared some things on the way, I'm glad he shared them with me.
 
-I was so inspired by Suvarna that I stayed night tried to copy paste stuff and [make a good farewell online](https://suvi277.github.io/) (beware it's not responsive) card sorta thing, because I'd forgot to bring an actual one, which I was liable for in the team. Just one look of her back straighened up in the chair could make you sit upright on your chair and work.
+I was so inspired by Suvarna that I stayed night tried to copy paste stuff and [make a good farewell online](https://suvi277.github.io/) (beware it's not responsive) card sorta thing, because I'd forgot to bring an actual one, which I was liable for in the team. Just one look of her back straighened up on the chair could make you sit upright on your chair and work.
 
 Subin was my new Manager after Ashok. He's a wonderful team player, very vigilant, professional, caring for his team mates, and always up for getting things done right. I'm very grateful for him, for being very appreciative of everything. I couldn't have had a better second project Manager, I'm sure. And he's a [wonderful photographer](https://subinpaul.com/).
 
@@ -95,7 +95,7 @@ Sagar, right from when we were porting components, was always cool and chilling.
 
 There are many circumstances that are making me quit this job. What would I do now? 
 
-1. I've commited to 100 days of code, with twitter hashtag #100DaysOfCode, where I commit to code something or read code for atleast one hour for 100 years, which includes out of office work (which would be all time now, for some time atleast).
+1. I've commited to 100 days of code, with twitter hashtag #100DaysOfCode, where I commit to code something or read code for atleast one hour for 100 days, which includes out of office work (which would be all time now, for some time atleast).
 2. I'll finish Harshini's (friend of a friend) Portfolio Website in the best way possible. 
 3. I'll start contributing to Gastby Static Site Generator.
 4. I'll possibly find a remote job (but who knows?)
