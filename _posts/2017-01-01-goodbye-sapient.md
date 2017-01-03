@@ -24,7 +24,7 @@ And there are people who very naturally want to show what they are capable of ju
 
 Talking about making difference. This leaving of my first job, as much as it's emotional for me, is also relieving to some extent as well, although I haven't told this to many people. I've to write much about being emotional and being thankful, so I'll get done with the relieved part quickly. 
 
-1. My idea of working, is that people look upto me after years, and I be in the list of their inspirations, just like many of the people I've on my list. Working for big brands doesn't exactly align me towards that. I want to make people's lives better, and those whose lives actually need to get better. Brands arens't those people. I figured I'm young and I still have time to do that, no matter if this opportunity is coming as a side effect of the reason I'm leaving the company, and not as a primary intention.
+1. My idea of working, is that people look upto me after years, and I be in the list of their inspirations, just like many of the people I've on my list. Working for big brands doesn't exactly align me towards that. I want to make people's lives better, and those whose lives actually need to get better. Brands aren't those people. I figured I'm young and I still have time to do that, no matter if this opportunity is coming as a side effect of the reason I'm leaving the company, and not as a primary intention.
 
 2. (Personal Opinion): Somewhat weirdly distributed fame projections, ranging from an SME who barely came once to help us during our training period, and got an award for it, to people working their asses off on and off projects and not being pushed up at the speed they deserve (no I'm not talking about myself). 
 
@@ -106,7 +106,7 @@ There are many circumstances that are making me quit this job. What would I do n
 
 I'm very thankful I've understanding parents who never fiddled with my choices of whatever I wanted to in my career, which is still unclear.
 
-If you've been a part of my life in Bangalore, I'd love to hear more than _All the best for your future_ and _good luck_ in the comments below, because you've meant more to me than you know, and you owe me a proper goodbye. I want you to cite incidents, if you can, of conversations, you remember, and if and when I was able to make a impact in any way, in you and your life.
+If you've been a part of my life in Bangalore, I'd love to hear more than _All the best for your future_ and _good luck_ in the comments below, because you've meant more to me than you know, and you owe me a proper goodbye. I want you to cite incidents, if you can, of conversations, you remember, and if and when I was able to make a impact in any way, in you and your life. Or, any unsolicited suggestions or feedback you might like giving me for my betterment, that'd be cool!
 
 10th Jan is my last day in Sapient. 
 
