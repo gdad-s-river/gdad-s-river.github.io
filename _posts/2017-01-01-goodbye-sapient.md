@@ -112,6 +112,10 @@ If you've been a part of my life in Bangalore, I'd love to hear more than _All t
 
 Cheers to a happy new year. May your ways be auspicious. 
 
+--- 
+
+Edit (6th Jan, 2016): I read [this](https://medium.com/@abhiaiyer/how-i-got-into-software-engineering-1e8e457b100b#.xz4i8411f) article by Abhi Iyer (I didn't know he wasn't a computer major!). The way he talks about parties and working die hard, and stumbling onto people and opportunities is very unlike me. I've been spending all my time inside my room save for basketball. But I don't know why, this article coming at the time of leaving the company with nothing ahead in mind (I mean not nothing, but somethings which are very experimental so to speak (but then what new thing isn't?)), ah, is a morale rocket booster.
+
 PS: I had this crazy idea, where I'd put a status on facebook asking if anybody would want to write a poem with me, like a co write thing. Three of them responded and following are the 3 poems, that I co wrote with three people. 
 
 - [Poem's Paper Cut](https://www.facebook.com/arihantverma/posts/1546694315395519)
