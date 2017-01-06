@@ -1,0 +1,7 @@
+<script>
+  Array.from(document.getElementsByTagName("p")).forEach(ele => {
+    Array.from(ele.childNodes).forEach(node => {
+      if(node.tagName == "IMG") ele.className += "img-align-center"
+    });
+  })
+</script>

@@ -1,13 +1,18 @@
 /**
  * Syntax highlighting styles
  */
+
+.highlighter-rouge {
+  color: white;
+}
+
 .highlight {
     // background: #fff;
     // @extend %vertical-rhythm;
 
-    // .highlighter-rouge & {
-    //   background: #000;
-    // }
+    .highlighter-rouge & {
+      background: #000;
+    }
 
   .hll { background-color: #49483e }
   .c { color: #75715e } /* Comment */
