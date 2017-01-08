@@ -1,6 +1,6 @@
 ---
 title: "More Blogging, For Better Habit Making"
-date: "2017-08-01"
+date: "2017-01-08"
 layout: post
 permalink: "/blog/more-blogging-for-good"
 tag: "blogging, tech-blogging, habits"
