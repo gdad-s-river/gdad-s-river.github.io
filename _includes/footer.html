@@ -29,7 +29,13 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+        <ul>
+          <li><p>{{ site.description }}</p></li>
+          <li><p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
       </div>
     </div>
 

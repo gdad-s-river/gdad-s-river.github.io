@@ -149,6 +149,16 @@
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
+
+    ul {
+      list-style-type: none;
+      margin-left: 0;
+      li {
+        p {
+          margin-bottom: 1px;
+        }
+      }
+    }
 }
 
 @include media-query($on-laptop) {
