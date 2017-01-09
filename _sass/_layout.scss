@@ -106,6 +106,7 @@
 .site-footer {
     border-top: 1px solid #d0caca;
     padding: $spacing-unit 0;
+    // box-shadow: 0 5px 20px 3px black;
 
     @include media-query($on-palm) {
         text-align: center;
@@ -189,14 +190,22 @@
  */
 .page-content {
     padding: $spacing-unit 0 0;
-    overflow-y: scroll;
-    height: 60vh;
+    // overflow-y: scroll;
+    // height: 60vh;
+
+    .wrapper {
+      // box-shadow: 5px 5px 34px 0px rgba(0, 0, 0, 0.78);
+      @include media-query($on-palm) {
+        box-shadow: none;
+      }
+    }
 }
 
 .page-heading {
     font-size: 25px;
     text-transform: uppercase;
-    text-align: center
+    text-align: center;
+    // padding-top: 15px ;
 
     // @include media-query($on-palm) {
     //     text-align: center;
