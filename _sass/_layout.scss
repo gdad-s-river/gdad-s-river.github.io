@@ -179,6 +179,8 @@
  */
 .page-content {
     padding: $spacing-unit 0 0;
+    overflow-y: scroll;
+    height: 60vh;
 }
 
 .page-heading {
@@ -274,11 +276,11 @@
       left: 0;
       background-color: #79d9f9;
       visibility: hidden; // http://tobiasahlin.com/blog/css-trick-animating-link-underlines/
-      -webkit-transform: scaleX(0); 
+      -webkit-transform: scaleX(0);
       transform: scaleX(0);
       -webkit-transition: all 0.4s ease-in-out 0s;
       transition: all 0.4s ease-in-out 0s;
-      
+
     }
 
     &:hover {
@@ -314,7 +316,7 @@
     font-family: 'Cormorant Garamond', cursive, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.3rem;
     margin-bottom: $spacing-unit;
-    
+
     a {
         text-decoration: inherit;
         border-bottom: 4px solid #79d9f9;
@@ -348,7 +350,7 @@
             font-size: 18px;
         }
     }
-    
+
     p {
       &.img-align-center {
         display: flex;
