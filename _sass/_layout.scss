@@ -388,3 +388,21 @@
         text-align: center;
     }
 }
+
+.social-share-wrapper {
+  font-family: $base-font-family;
+  display: flex;
+  justify-content: center;
+
+  .social-icon {
+    width: 32px;
+    height: 32px;
+    padding-right: 12px;
+
+    a {
+      &:hover {
+        background: none;
+      }
+    }
+  }
+}
