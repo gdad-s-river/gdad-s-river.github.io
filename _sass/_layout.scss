@@ -399,6 +399,10 @@
     height: 32px;
     padding-right: 12px;
 
+    .fb-svg {
+      fill: #828282;
+    }
+
     a {
       &:hover {
         background: none;
