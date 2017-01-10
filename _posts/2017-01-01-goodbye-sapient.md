@@ -10,6 +10,8 @@ tag: "2016, Sapient, goodbye"
 
 I guess 10th January, 2016 was my first project, first day. I was scared of the documentation of the IEA front end framework (our project) that a bunch of us were handed over before we were scheduled for the project. 
 
+## Team People 
+
 Rishabh and I weren't selected for it, but the two of the four that were, left the company for better salaries in between. Both of them had pretty genuine reasons to take the lucrative, none of them wanted to work corely in technology. So I wouldn't judge them. But if both of them had chucked out because of better tech opportunities, I'd have judged them. Only in this year, I realised, a product is because of its team. They missed some pretty experienced, friendly faces, which I'm surely going to miss now. 
 
 When I see behind, I was very afraid of getting things wrong, or not knowing something. I already had a predefined image of working in companies and projects, you do something which you are responsible for wrong, you are butchered. Which wasn't in any way close in the projects. 
@@ -80,7 +82,18 @@ Trinadh has been very helpful. No matter what, he'd ensure that I understood the
 
 Sagar, right from when we were porting components, was always cool and chilling. He has the habit of keeping everybody smiling and laughing.
 
+## Off Team Peeps 
+
+I'd like to provide my gratitude to Nisheed for understanding the weird cause of sudden departure from the company, and his ever fresh face and his enthu on doing and learning and teaching things. 
+
+Madhav, and all other SMEs who helped us learn a lot during the training, our achievements, whatever they are, would not have been possible without you people, at all. 
+
+Shadul, for being ever confident, and eloquent fella about what he wanted to communicate, and with style! 
+
+My June XT Batch, Bangalore wouldn't have been what it is without you peeps. I owe my time in Bangalore's awesomeness to you. I've to write a separate post for you like I did after the end of training.
+
 > If I've left someone please comment below, and I'll include you from my memories, here!
+
 
 ## What Sapient Gave me:
 
