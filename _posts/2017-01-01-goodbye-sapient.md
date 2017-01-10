@@ -90,6 +90,8 @@ Short conversations with Bharti about Career and Life, and her encouragements wo
 
 ## Off Team Peeps
 
+Vinci, was a ray of hope of absolute confidence and humility combined. He was just like yoda but speaking tech stuff and encouraging others like anything. I'm a fan.
+
 I'd like to provide my gratitude to Nisheed for understanding the weird cause of sudden departure from the company, and his ever fresh face and his enthu on doing and learning and teaching things.
 
 Madhav, and all other SMEs who helped us learn a lot during the training, our achievements, whatever they are, would not have been possible without you people, at all.
