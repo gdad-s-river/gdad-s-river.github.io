@@ -100,6 +100,8 @@ Shadul, for being ever confident, and eloquent fella about what he wanted to com
 
 My June XT Batch, Bangalore wouldn't have been what it is without you peeps. I owe my time in Bangalore's awesomeness to you. I've to write a separate post for you like I did after the end of training.
 
+Harish Kulur, who was one year senior to us, took our backbone training, he's a super quick learner. Boy! His calmness and coolness gives me chills, he's literally the coolest person I've met. 
+
 > If I've left someone please comment below, and I'll include you from my memories, here!
 
 
