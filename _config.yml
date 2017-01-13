@@ -13,6 +13,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gdad-s-river.github.io" # the base hostname & protocol for your site
 twitter_username: gdad_s_river
 github_username:  gdad-s-river
+gems: [jekyll-paginate]
+paginate: 10 
 
 # Build settings
 markdown: kramdown

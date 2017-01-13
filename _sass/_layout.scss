@@ -281,7 +281,7 @@
     }
 }
 
-.post-link {
+@mixin material-border-bottom-slide-left(){
     display: inline-block;
     position: relative;
     font-size: 1.2rem;
@@ -310,6 +310,15 @@
         transform: scaleX(1);
       }
     }
+}
+
+.post-link {
+  @include material-border-bottom-slide-left();
+}
+
+.previous,
+.next {
+  @include material-border-bottom-slide-left();
 }
 
 

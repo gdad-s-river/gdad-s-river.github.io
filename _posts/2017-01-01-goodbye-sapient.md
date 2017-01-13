@@ -96,7 +96,7 @@ I'd like to provide my gratitude to Nisheed for understanding the weird cause of
 
 Madhav, and all other SMEs who helped us learn a lot during the training, our achievements, whatever they are, would not have been possible without you people, at all.
 
-Shadul, for being ever confident, and eloquent fella about what he wanted to communicate, and with style!
+Shardul, for being ever confident, and eloquent fella about what he wanted to communicate, and with style!
 
 My June XT Batch, Bangalore wouldn't have been what it is without you peeps. I owe my time in Bangalore's awesomeness to you. I've to write a separate post for you like I did after the end of training.
 
