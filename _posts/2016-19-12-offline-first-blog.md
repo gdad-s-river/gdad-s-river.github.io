@@ -6,6 +6,8 @@ permalink: "/blog/offline-first-blog"
 tag: "service-worker, offline-first, pwa"
 ---
 
+**UPDATE**: I recently added some small enhancements, and edited the blogpost which was published on [Fossbytes](https://fossbytes) [A friend's startup]. You can read the updated version [here](https://fossbytes.com/get-jekyll-blog-work-offline/)
+
 ### **TL;DR**
 
 1. **Why offline first hype makes sense with other concepts like streams etc.**
