@@ -38,6 +38,4 @@ Please Subscribe Here!
 
 ## ARCHIVES 
 
-<iframe height="500" class="letter-archives" src="//us14.campaign-archive2.com/home/?u=221895ca1fcbb3cbfd98424ab&id=3cb048ee42">
-
-</iframe>
+You can find all the archives newsletters sent [here](http://us14.campaign-archive1.com/home/?u=221895ca1fcbb3cbfd98424ab&id=3cb048ee42)
