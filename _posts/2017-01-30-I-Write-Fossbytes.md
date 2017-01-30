@@ -1,8 +1,8 @@
 ---
 title: "I Started Writing On Fossbytes"
-date: "2017-30-01"
+date: "2017-01-30"
 layout: post
-permalink: "/blog/I-Write-Fossbytes"
+permalink: "/blog/i-write-fossbytes"
 tag: "fossbytes, tech-blogging"
 ---
 
