@@ -2,7 +2,7 @@
 title: "I Started Writing On Fossbytes"
 date: "2017-30-01"
 layout: post
-permalink: "/blog/I-Write-Fossbytes
+permalink: "/blog/I-Write-Fossbytes"
 tag: "fossbytes, tech-blogging"
 ---
 
