@@ -33,6 +33,7 @@ Please Subscribe Here!
 
 <!--End mc_embed_signup-->
 <br>
+
 ## Check out the latest newsletter here:
 [gdad-s-river's latest weekly list of JS and poetry links](http://us14.campaign-archive2.com/?u=221895ca1fcbb3cbfd98424ab&id=4bb665ef98)
 
