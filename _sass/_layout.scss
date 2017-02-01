@@ -349,10 +349,11 @@
     a {
         text-decoration: inherit;
         border-bottom: 4px solid #79d9f9;
+        box-shadow: #79d9f9;
         padding: 5px 5px 0 5px;
 
         &:hover {
-            background-color: #b4e7f8;
+            background-color: #79d9f9;
         }
     }
 
