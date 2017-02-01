@@ -4,7 +4,7 @@ title: Subscribe
 permalink: /subscribe/
 ---
 
-<h1 style="color: #79d9f9; font-weight: bold">gdad-s-river's weekly list JS and poetry of links</h1>
+<h1 style="color: #79d9f9; font-weight: bold">gdad-s-river's weekly list of JS and poetry links</h1>
 
 I've decided to run a weekly newsletter covering some of this blog's posts, things I learnt in that week about Javascript and Tech things in general and poems towards the end! If you like what I share, it would be awesome of you to encourage your friends and colleagues to subscribe as well!
 
