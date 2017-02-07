@@ -11,3 +11,6 @@ I'm <strong>Arihant</strong> I live in <del>Bengaluru</del> present, making effo
 This is a cartoon that I doodled on the phone 3 years ago. This is who I am now (`¯\_(ツ)_/¯`)
 
 ![This is what gdad-s-river looks like on the web](/assets/images/gdad-s-river.jpeg)
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It&#39;s amazing what you can do when you don&#39;t give two shits about people<br><br>Anything&#39;s possible!</p>&mdash; Sunil Pai (@threepointone) <a href="https://twitter.com/threepointone/status/827223381434998784">February 2, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
