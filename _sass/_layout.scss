@@ -29,6 +29,7 @@
     float: right;
     line-height: 56px;
     margin-right: 9%;
+    z-index: 999;
 
       @include media-query($on-palm) {
           margin-right: 0;
