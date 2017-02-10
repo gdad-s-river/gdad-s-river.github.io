@@ -4,4 +4,5 @@ title: Vlogs
 permalink: /vlogs/
 ---
 
-Comings Soon
+## Walking The Code: Thought Autocomplete ReactJS Web App
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLbgL79bbUF4XaA9Ip3LVigfCesH9-IyyL" frameborder="0" allowfullscreen></iframe>
