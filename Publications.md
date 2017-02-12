@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-permalink: /tech-bloggin/
+permalink: /publications/
 ---
 
 - [Why I Started Writing Again](https://writingcooperative.com/why-i-started-writing-again-eb187df2787e)<span class="chip-tag"><span class="chip-tag-text">Lit</span></span>
