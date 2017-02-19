@@ -4,7 +4,9 @@ title: Publications
 permalink: /publications/
 ---
 
-- [Why I Started Writing Again](https://writingcooperative.com/why-i-started-writing-again-eb187df2787e) on [Writing Cooperative](https://writingcooperative.com/)<span class="chip-tag"><span class="chip-tag-text">Lit</span></span>
+- A Poem on a Visual Prompt on [Visual Verse](http://visualverse.org/submissions/delineation/)<span class="chip-tag"><span class="chip-tag-text">Lit, Poem, Visual Prompt</span></span>
+
+- [Why I Started Writing Again](https://writingcooperative.com/why-i-started-writing-again-eb187df2787e) on [Writing Cooperative](https://writingcooperative.com/)<span class="chip-tag"><span class="chip-tag-text">Lit, Story, Prose</span></span>
 
 - All the general and specific tech articles, many about javascript on [Fossbytes](https://fossbytes.com/author/av/) <span class="chip-tag"><span class="chip-tag-text">Tech</span></span>
 
