@@ -319,6 +319,16 @@
     font-size: 1.3rem;
     margin-bottom: $spacing-unit;
 
+    &.nav-page-content {
+      // display: none;
+      @include media-query($on-palm) {
+        text-align: center;
+        .chip-tag {
+          margin-top: 25px;
+        }
+      }
+    }
+
     a {
         text-decoration: inherit;
         border-bottom: 4px solid #79d9f9;
