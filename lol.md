@@ -20,4 +20,6 @@ If you want to give a shot to read what I read over, in a week, please subscribe
 
 You can see the archives of previously sent LOL newsletter [here](http://tinyletter.com/gdad-s-river/archive)
 
+### Also! You can share the links that you read on the go, with [LOL Link Sharer](https://chrome.google.com/webstore/detail/lol-link-sharer/jjllphofpikbebeielgakcpinafagmnn) chrome extension with a click of a button
+
 <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/gdad-s-river" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/gdad-s-river', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
