@@ -2,7 +2,7 @@
 layout: null
 ---
 
-const staticCacheName = "gdad-s-river-static-v99";
+const staticCacheName = "gdad-s-river-static-v100";
 
 console.log("installing service worker");
 
