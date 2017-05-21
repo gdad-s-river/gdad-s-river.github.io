@@ -44,6 +44,11 @@ const BoldSpanComponent = ({text, fontWeight}) => {
     <StyledSpan>{text}: </StyledSpan>
   )
 }
+
+BoldSpanComponent.propTypes = {
+  text: PropTypes.string.isRequired,
+  fontWeight: PropTypes.string
+}
 ```
 
 Now I'll loop over the set of strings in the set and return a BoldSpan for each of them and make them sit in a component in the namespace, like so:
