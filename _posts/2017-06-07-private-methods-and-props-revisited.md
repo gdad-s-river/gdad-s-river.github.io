@@ -1,5 +1,5 @@
 ---
-title: "Private Methods and Props in JS Classes: The New Possible Way"
+title: "Private Methods and Props in JS Classes: Revisited"
 date: "2017-06-07"
 layout: post
 permalink: "/blog/private-parts-js-classes"
