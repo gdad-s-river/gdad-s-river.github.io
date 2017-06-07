@@ -35,7 +35,7 @@ class Blala extends Component {
   state = { clicks: 0 }
   handleClick = () => {
     this.setState(prevState => {clicks: prevState.clicks + 1})
-  }
+  } // if you use a `function` keyword then you'd have to explicitly bind it.
 
   onClickHandler() {
     this.setState(prevState => {clicks: prevState.clicks + 1})
@@ -49,4 +49,4 @@ class Blala extends Component {
 
 That's it! 
 
-I learn this from (Ken Dodds Free Egg Head Tutorial)[https://egghead.io/lessons/javascript-public-class-fields-with-react-components]
+I learn this from [Ken Dodds Free Egg Head Tutorial](https://egghead.io/lessons/javascript-public-class-fields-with-react-components)
