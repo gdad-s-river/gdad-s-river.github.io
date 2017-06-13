@@ -6,7 +6,7 @@ permalink: "/blog/react-public-class-fields"
 tag: "react, js, classes"
 ---
 
-Til now I had been conjuring up a constructor to bind the dom event handlers like so 
+Til now I had been conjuring up a constructor to bind the dom event handlers like so
 
 ```javascript
 import React, { Component }
@@ -27,7 +27,7 @@ class Blala extends Component {
 }
 ```
 
-But turns out we do not need constructor function at all for this, we could use javascript public class fields like so : 
+But turns out we do not need constructor function at all for this, we could use javascript public class fields like so :
 
 ```javascript
 import React, { Component }
@@ -47,6 +47,6 @@ class Blala extends Component {
 }
 ```
 
-That's it! 
+That's it!
 
-I learn this from [Ken Dodds Free Egg Head Tutorial](https://egghead.io/lessons/javascript-public-class-fields-with-react-components)
+I learnt this from [Ken Dodds Free Egg Head Tutorial](https://egghead.io/lessons/javascript-public-class-fields-with-react-components)
