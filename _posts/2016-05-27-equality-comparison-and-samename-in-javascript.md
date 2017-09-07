@@ -26,9 +26,9 @@ This is the piece of code that [CodeChef](https://www.codechef.com/) shared on t
 Now I had never had programmed before 1 year, so I still jump in ecastacy on the 'aha!' moments a programming language has to offer. Many of them for javascript came from [Kyle Simpson](http://getify.me/). One came today from the code snippet above, that an [acquaintance](https://www.facebook.com/shreysaroch?fref=ts) happened to share. First I was very surprised by (1), because it was an array with an empty string element being checked for another such array. Turns out they are **two different object references being compared** so obviously they won't come true. Infact
 
 ```javascript
-> [] === []
+> [] == []
 // false
-> {} === {}
+> {} == {}
 // false
 ```
 
