@@ -313,7 +313,7 @@
   &.nav-page-content {
     // display: none;
     @include media-query($on-palm) {
-      text-align: center;
+      // text-align: center;
       .chip-tag {
         margin-top: 25px;
       }
