@@ -192,9 +192,22 @@
   // height: 60vh;
 
   .wrapper {
+    article.post {
+      width: 650px;
+      margin: auto;
+    }
+
+    @include media-query($on-laptop) {
+      article.post {
+        width: auto;
+      }
+    }
     // box-shadow: 5px 5px 34px 0px rgba(0, 0, 0, 0.78);
     @include media-query($on-palm) {
       box-shadow: none;
+      article.post {
+        width: auto;
+      }
     }
   }
 }
